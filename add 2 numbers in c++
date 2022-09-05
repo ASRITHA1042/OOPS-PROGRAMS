@@ -1,0 +1,12 @@
+#include<iostream>
+int main()
+{
+    int a,b,c;
+    a=21;
+    b=2;
+    c=a+b;
+    {
+    std::cout<<"\nc=" <<c;
+}
+    return 0;
+}
