@@ -29,6 +29,8 @@ int main()
 		case 'e':
 			c=a%b;
 			cout<<c;
+		default:
+		    cout<<"provide valid choice";
 	}
 	return 0;
 }
