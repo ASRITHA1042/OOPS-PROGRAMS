@@ -1,47 +1,28 @@
 #include<iostream>
-using namespace std;
-int sum(int,int);
-int sub(int,int);
-int mul(int,int);
-int div(int,int);
-int mod(int,int);
-int rem;
 int main()
 {
- int a,b,m,su,s,d,mo;
- cout<<"Enter Two Numbers : \n";
- cin>>a>>b;
- s=sum(a,b);
- su=sub(a,b);
- m=mul(a,b);
- d=div(a,b);
- mo=mod(a,b);
- cout<<"\nSum  = "<<s<<"\nSubtraction  = "<<su<<endl;
- cout<<"\nMultiplication  = "<<m<<"\nDivision  = "<<d<<"\nModulus="<<mo<<endl;
- return 0;
+    int a,b,c,d,e,f,g;
+    a=21;
+    b=2;
+    c=a+b;
+    {
+    std::cout<<"\nc=" <<c;
 }
-int sum(int a,int b)
-{
- rem=a+b;
- return(rem);
+     d=a-b;
+     {
+    std::cout<<"\nd=" <<d;
 }
-int sub(int a,int b)
-{
- rem=a-b;
-return(rem);
+    e=a*b;
+    {
+    std::cout<<"\ne=" <<e;
 }
-int mul(int a,int b)
-{
- rem=a*b;
-return(rem);
+     f=a/b;
+     {
+    std::cout<<"\nf=" <<f;
 }
-int div(int a,int b)
-{
- rem=a/b;
-return(rem);
+    g=a%b;
+    {
+   std::cout<<"\ng=" <<g;
 }
-int mod(int a,int b)
-{
-	rem=a%b;
-return(rem);
+    return 0;
 }
