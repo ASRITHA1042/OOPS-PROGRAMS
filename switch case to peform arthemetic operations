@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char val;
+	int a=21;
+	int b=2;
+	int c;
+	cout<<"a.addition";
+	cout<<"\nb.substraction";
+    cout<<"\nc.Multiplication"<<"\nd.Division "<<"\ne.Modulus"<<endl;
+    cin>>val;
+	switch(val)
+	{
+		case'a':
+			c=a+b;
+			cout<<c;
+			break;
+		case'b':
+			c=a-b;
+			cout<<c;
+			break;
+		case 'c':
+		    c=a*b;
+			cout<<c;
+			break;	
+		case 'd':
+			c=a/b;
+			cout<<c;
+			break;
+		case 'e':
+			c=a%b;
+			cout<<c;
+			break;
+		default:
+		    cout<<"provide valid choice";
+	return 0;
+    }
+}
