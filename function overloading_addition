@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+void add(int a, int b)
+{
+  cout << "sum of integers = " << (a + b);
+}
+void add(double a, double b)
+{
+    cout << endl << "sum of decimals= " << (a + b);
+}
+int main()
+{
+    add(1, 2);
+    add(3.0, 4.0);
+    return 0;
+}
