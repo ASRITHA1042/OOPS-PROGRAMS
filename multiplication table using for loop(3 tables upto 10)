@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout << "Enter 1st integer: ";
+    cin >> a;
+    cout << "Enter 2nd integer: ";
+    cin >> b;
+    cout << "Enter 3rd integer: ";
+    cin >> c;
+    for (int i = 1; i <= 10; ++i) 
+	{
+        cout << a << " * " << i << " = " << a * i << endl;
+    }
+    for (int i = 1; i <= 10; ++i)
+    {
+        cout << b << " * " << i << " = " << b * i << endl;
+    }
+    for (int i = 1; i <= 10; ++i)
+    {
+        cout << c << " * " << i << " = " << c * i << endl;
+    }
+    return 0;
+}
