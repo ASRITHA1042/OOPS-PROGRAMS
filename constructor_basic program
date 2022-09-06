@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+class name
+{
+	public:
+	    	name()
+	    	{
+			 cout<<"name";
+	      	}
+};
+int main()
+{
+	name obj;
+	return 0;
+}
