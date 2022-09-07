@@ -1,0 +1,43 @@
+#include <iostream>  
+using namespace std;  
+class base  
+{  
+public:  
+    a()  
+    {  
+cout<< "first\n";  
+    }  
+};  
+class derived1: public base  
+{  
+public:  
+    b()  
+    {  
+cout<< "second\n";  
+    }  
+};  
+class derived2  
+{  
+public:  
+    c()  
+    {  
+cout<< "third\n";  
+    }  
+};  
+class derived3: public derived2, public derived1  
+{  
+public:  
+    d()  
+    {  
+cout<< "fourth\n";  
+    }  
+};  
+int main() 
+{  
+    derived3 obj;
+	obj.a();
+	obj.b();
+	obj.c();
+	obj.d();
+    return 0;  
+}
