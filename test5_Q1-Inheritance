@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+class degree{
+ public:
+  degree()
+  {
+   cout<<"I got a degree.";
+  }
+};
+class undergraduate:public degree
+{
+ public:
+  undergraduate()
+  {
+   cout<<"\nI am an Undergraduate";
+  }
+};
+class postgraduate:public degree
+{
+ public:
+  postgraduate()
+  {
+   cout<<"\nI am a Postgraduate";
+  }
+};
+int main()
+{
+ undergraduate obj1;
+ postgraduate obj2;
+ return 0;
+}
