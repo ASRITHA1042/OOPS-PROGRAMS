@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num, rem, digitSum;
+	cout << "Enter the Number = ";
+	cin >> num;
+	for(digitSum = 0; num> 0; num= num/10)
+	{
+    	rem = num % 10;
+    	digitSum += rem;
+	}
+	cout << "\nThe Sum of all Digits in a given Number = " << digitSum;	
+ 	return 0;
+}
