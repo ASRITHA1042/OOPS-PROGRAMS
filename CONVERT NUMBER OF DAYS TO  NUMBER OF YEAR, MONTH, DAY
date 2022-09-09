@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int tot, days, weeks, months, years;
+   cout<<"Enter total no of days: ";
+   cin>>tot;
+   years = tot/365;
+   months = (tot%365)/30;
+   weeks = ((tot%365)%30)/7;
+   days = ((tot%365)%30)%7;
+   cout<<endl<<tot<<" Days = ";
+   cout<<years<<" Years, ";
+   cout<<months<<" Months, ";
+   cout<<weeks<<" Weeks, and ";
+   cout<<days<<" Days.";
+   cout<<endl;
+   return 0;
+}
