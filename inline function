@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+inline int square(int s)
+{
+	return s*s;
+}
+int main()
+{
+	cout<<"square of 5 is: "<<square(5)<<"\n";
+	return 0;
+}
